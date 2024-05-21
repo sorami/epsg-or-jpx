@@ -16,7 +16,10 @@ export default defineConfig({
 						weights: ['900']
 					}
 				],
-				base: [{ name: 'Noto Sans Japanese', weights: ['400', '900'] }]
+				base: [
+					{ name: 'Noto Sans JP', weights: ['400', '900'] },
+					{ name: 'sans-serif', provider: 'none' }
+				]
 			}
 		})
 	],
