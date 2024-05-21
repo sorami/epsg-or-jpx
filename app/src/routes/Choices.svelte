@@ -23,7 +23,7 @@
 				onclick={(e) => handleClick(e, 'epsg')}
 				class="flex items-center gap-1.5"
 			>
-				<div class="i-tabler-world"></div>
+				<div class="i-tabler-world w-5.5 h-5.5"></div>
 				EPSG</button
 			>
 			<button class:correct={selectedGroup === 'both'} onclick={(e) => handleClick(e, 'both')}
