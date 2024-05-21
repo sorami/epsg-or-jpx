@@ -1,0 +1,5 @@
+body {
+	@apply bg-teal-500;
+	@apply text-stone-700;
+	@apply font-lobster;
+}
