@@ -43,6 +43,7 @@
 
 <style>
 	#choices button {
+		@apply text-xs md:text-lg;
 		@apply px-3.5 py-1.5 rounded-full;
 		transition:
 			background-color 0.3s,

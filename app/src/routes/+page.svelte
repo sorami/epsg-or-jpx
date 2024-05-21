@@ -88,7 +88,7 @@
 </svelte:head>
 
 <main class="grid place-items-center h-100vh">
-	<div class="flex flex-col gap-16 items-center my-10 mx-3" class:shake={isShaking}>
+	<div class="flex flex-col gap-16 items-center justify-center my-10 mx-3" class:shake={isShaking}>
 		<h1 class="text-2xl sm:text-3xl font-black tracking-tight text-zinc-200">
 			EPSGコード or 証券コード ?
 		</h1>
@@ -101,7 +101,7 @@
 	</div>
 </main>
 
-<div class="absolute right-8 bottom-8">
+<div class="absolute right-4 bottom-4 sm:right-8 sm:bottom-8">
 	<a target="_blank" href="https://zenn.dev/mierune/articles/9d31472c71fe05">
 		<div class="w-8 h-8 i-tabler-info-circle-filled bg-zinc-100/70 hover:bg-cyan-400"></div>
 	</a>

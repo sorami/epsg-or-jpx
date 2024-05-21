@@ -55,6 +55,6 @@
 		@apply w-5 h-5 text-green-400;
 	}
 	.answer-text {
-		@apply text-lg font-bold text-green-400;
+		@apply text-xs sm:text-lg font-bold text-green-400;
 	}
 </style>
