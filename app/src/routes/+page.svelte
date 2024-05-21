@@ -53,10 +53,38 @@
 		select();
 		initLoad = true;
 	});
+
+	const headerInfo = {
+		title: 'EPSG or JPX - sorami.dev',
+		url: 'https://sorami.dev/epsg-or-jpx/',
+		favicon: 'https://sorami.dev/_assets/favicon.svg',
+		description: 'EPSGコードか、証券コードか。',
+		thumbnail: 'https://sorami.dev/epsg-or-jpx/thumbnail.png'
+	};
 </script>
 
 <svelte:head>
-	<title>EPSG or JPX - sorami.dev</title>
+	<title>{headerInfo.title}</title>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="canonical" href={headerInfo.url} />
+	<link rel="icon" type="image/svg+xml" href={headerInfo.favicon} />
+
+	<meta name="title" content={headerInfo.title} />
+	<meta name="description" content={headerInfo.description} />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={headerInfo.url} />
+	<meta property="og:title" content={headerInfo.title} />
+	<meta property="og:description" content={headerInfo.description} />
+	<meta property="og:image" content={headerInfo.thumbnail} />
+
+	<meta property="twitter:card" content="summary" />
+	<meta property="twitter:url" content={headerInfo.url} />
+	<meta property="twitter:title" content={headerInfo.title} />
+	<meta property="twitter:description" content={headerInfo.description} />
+	<meta property="twitter:image" content={headerInfo.thumbnail} />
 </svelte:head>
 
 <main class="grid place-items-center h-100vh">
