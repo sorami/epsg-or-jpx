@@ -21,7 +21,7 @@
 			<button
 				class:correct={selectedGroup === 'epsg'}
 				onclick={(e) => handleClick(e, 'epsg')}
-				class="flex items-center gap-1.5"
+				class="flex items-center gap-1.2"
 			>
 				<div class="i-tabler-world button-icon"></div>
 				EPSG</button
@@ -32,7 +32,7 @@
 			<button
 				class:correct={selectedGroup === 'jpx'}
 				onclick={(e) => handleClick(e, 'jpx')}
-				class="flex items-center gap-1.5"
+				class="flex items-center gap-1.2"
 			>
 				JPX
 				<div class="i-tabler-coin-yen button-icon"></div>
@@ -55,7 +55,8 @@
 	}
 
 	#choices button .button-icon {
-		@apply w-5.5 h-5.5;
+		@apply w-4.5 h-4.5 sm:w-5.5 sm:h-5.5;
+		@apply mt-0 sm:mt-0.5;
 	}
 
 	#choices.answered button {
