@@ -67,7 +67,7 @@
 			>
 			<button
 				class:invisible={mode === 'question'}
-				class="rounded-full flex p-1.5 mt-2 hover:bg-green-500"
+				class="rounded-full flex p-1.5 mt-2 hover:bg-green-300"
 				onclick={retry}
 			>
 				<div class="i-tabler-reload w-5 h-5 text-zinc-800"></div>
