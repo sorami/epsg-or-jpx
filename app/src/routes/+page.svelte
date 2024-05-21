@@ -1,4 +1,5 @@
-<div class="text-red text-xl font-bold">example text</div>
+<svelte:head>
+	<title>EPSGコード or 証券コード - sorami.dev</title>
+</svelte:head>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="text-red text-xl font-bold">example text</div>
