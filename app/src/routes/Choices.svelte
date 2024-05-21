@@ -23,7 +23,7 @@
 				onclick={(e) => handleClick(e, 'epsg')}
 				class="flex items-center gap-1.5"
 			>
-				<div class="i-tabler-world w-5.5 h-5.5"></div>
+				<div class="i-tabler-world button-icon"></div>
 				EPSG</button
 			>
 			<button class:correct={selectedGroup === 'both'} onclick={(e) => handleClick(e, 'both')}
@@ -35,7 +35,7 @@
 				class="flex items-center gap-1.5"
 			>
 				JPX
-				<div class="i-tabler-coin-yen w-5.5 h-5.5"></div>
+				<div class="i-tabler-coin-yen button-icon"></div>
 			</button>
 		</div>
 	{/if}
@@ -52,6 +52,10 @@
 	#choices button:hover {
 		@apply bg-cyan-400;
 		transition: background-color 0.3s;
+	}
+
+	#choices button .button-icon {
+		@apply w-5.5 h-5.5;
 	}
 
 	#choices.answered button {
