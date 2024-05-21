@@ -1,28 +1,22 @@
 import { defineConfig } from 'unocss';
 import presetUno from '@unocss/preset-uno';
-import { presetWebFonts } from 'unocss';
+import { presetIcons, presetWebFonts } from 'unocss';
 import transformerDirectives from '@unocss/transformer-directives';
 
 export default defineConfig({
 	presets: [
 		presetUno(),
+		presetIcons(),
 		presetWebFonts({
 			provider: 'google',
 			fonts: {
-				sans: 'Roboto',
-				mono: ['Fira Code', 'Fira Mono:400,700'],
-				lobster: 'Lobster',
-				lato: [
+				orbitron: [
 					{
-						name: 'Lato',
-						weights: ['400', '700'],
-						italic: true
-					},
-					{
-						name: 'sans-serif',
-						provider: 'none'
+						name: 'Orbitron',
+						weights: ['900']
 					}
-				]
+				],
+				base: [{ name: 'Noto Sans Japanese', weights: ['400', '900'] }]
 			}
 		})
 	],

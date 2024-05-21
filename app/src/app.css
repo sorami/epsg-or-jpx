@@ -1,5 +1,10 @@
 body {
-	@apply bg-teal-500;
-	@apply text-stone-700;
-	@apply font-lobster;
+	@apply bg-zinc-800;
+	@apply text-zinc-100;
+	@apply font-base;
+}
+
+a {
+	@apply text-cyan-600 hover:text-cyan-400;
+	@apply hover:underline;
 }
