@@ -1,5 +1,7 @@
-type GROUP = 'both' | 'epsg' | 'jpx';
-const groups: GROUP[] = ['both', 'epsg', 'jpx'] as const;
+type Mode = 'question' | 'answer';
+
+type Group = 'both' | 'epsg' | 'jpx';
+const groups: Group[] = ['both', 'epsg', 'jpx'] as const;
 
 type CodeItem = {
 	code: string;
@@ -8,4 +10,4 @@ type CodeItem = {
 };
 
 export { groups };
-export type { GROUP, CodeItem };
+export type { Mode, Group, CodeItem };
