@@ -1,6 +1,6 @@
 # EPSG or JPX?
 
-EPSGコードか、証券コードか。
+詳細: [EPSGコードか、証券コードか](https://zenn.dev/mierune/articles/9d31472c71fe05)
 
 ## Data
 
